@@ -2,7 +2,6 @@
 <html lang="pt-BR"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Brasileirão 4-2-4</title>
-<link rel="icon" type="image/png" href="favicon.png">
 <style>
 :root{--bg:#f5c400;--ink:#111;--card:#fff;--y:#ffd51a;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#c79d00;--ink:#111;--card:#fff}}
@@ -21,7 +20,7 @@ html,body{margin:0;background:var(--bg);font-family:system-ui,Segoe UI,Arial,san
 :root[data-theme=dark] .opt.on,:root[data-theme=dark] .btn.sel{outline-color:#ffd51a}
 :root[data-theme=dark] .btn[style*="#eee"]{background:#3a3a3a!important;color:#eee}
 :root[data-theme=dark] #badges,:root[data-theme=dark] #stats,:root[data-theme=dark] #dbinfo{color:#eee}
-.btn.sel{outline:3px solid #111}html[data-dev=mb] .stadium{aspect-ratio:auto;height:calc(100dvh - 160px);min-height:420px}html[data-dev=mb] .slot .nm{max-width:21cqw}html[data-dev=mb] .board{left:6%;right:6%;top:12%;bottom:5%}html[data-dev=pc] .stadium{width:min(100%,calc((100dvh - 200px)/1.12))}.zoom{position:fixed;top:calc(8px + env(safe-area-inset-top,0px));left:8px;z-index:15;display:flex;gap:4px}.zoom button{width:34px;height:34px;border:0;border-radius:8px;background:#fff;font-size:18px;font-weight:900;cursor:pointer;box-shadow:0 2px 4px #0003;color:#111}.stadium{container-type:inline-size;position:relative;width:100%;aspect-ratio:1/1.12;border-radius:20%;background:repeating-conic-gradient(from 0deg at 50% 50%,#e9e9e9 0 4deg,#9d9d9d 4deg 7deg,#f7f7f7 7deg 10deg);overflow:hidden}
+.btn.sel{outline:3px solid #111}html[data-dev=mb] .stadium{aspect-ratio:auto;height:calc(100dvh - 160px);min-height:420px}html[data-dev=mb] .slot .nm{max-width:21cqw}html[data-dev=mb] .board{left:6%;right:6%;top:12%;bottom:5%}html[data-dev=pc] #app{min-height:100dvh;justify-content:center}html[data-dev=pc] .stadium{width:min(100%,calc((100dvh - 200px)/1.12))}.zoom{position:fixed;top:calc(8px + env(safe-area-inset-top,0px));left:8px;z-index:15;display:flex;gap:4px}.zoom button{width:34px;height:34px;border:0;border-radius:8px;background:#fff;font-size:18px;font-weight:900;cursor:pointer;box-shadow:0 2px 4px #0003;color:#111}.stadium{container-type:inline-size;position:relative;width:100%;aspect-ratio:1/1.12;border-radius:20%;background:repeating-conic-gradient(from 0deg at 50% 50%,#e9e9e9 0 4deg,#9d9d9d 4deg 7deg,#f7f7f7 7deg 10deg);overflow:hidden}
 .board{position:absolute;left:11%;right:11%;top:13%;bottom:9%;border-radius:12%;background:var(--y);padding:5.5%;box-shadow:0 0 0 3px #c9a200 inset;overflow:hidden}
 .ad{position:absolute;font-weight:900;color:#111;font-size:max(8px,2.3cqw);letter-spacing:1px;animation:flip 3s linear infinite;white-space:nowrap}
 .ad.t{top:1%;left:0;right:0;text-align:center}.ad.b{bottom:1%;left:0;right:0;text-align:center}
